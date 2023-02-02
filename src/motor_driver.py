@@ -1,8 +1,5 @@
 import pyb
 
-from encoder_reader import EncoderReader
-
-
 class MotorDriver:
     """!
     This class implements a motor driver for an ME405 kit.
@@ -53,15 +50,4 @@ class MotorDriver:
             self.ch_2.pulse_width_percent(0)
             self.ch_2.pulse_width_percent(0)
 
-
-if __name__ == '__main__':
-    # this is a comment
-    m1 = MotorDriver(pyb.Pin.board.PA10, pyb.Pin.board.PB4, pyb.Pin.board.PB5, 3)
-    enc = EncoderReader(pyb.Pin.board.PB6, pyb.Pin.board.PB7, 4)
-    #m2 = MotorDriver(pyb.Pin.board.PC1, pyb.Pin.board.PA0, pyb.Pin.board.PA1, 5)
-    level = 0
-    while True:
-        print(enc.read())
-        pyb.delay(50)
-        m1.set_duty_cycle(level)
 
