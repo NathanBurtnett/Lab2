@@ -4,7 +4,6 @@ import utime
 class Control:
     """!
     """
-
     def __init__(self, Kp, setpoint, initial_output):
         """!
         """
@@ -12,8 +11,8 @@ class Control:
         self.Kp = Kp
         self.setpoint = setpoint
         self.output = initial_output
-        self.times = []
-        self.positions = []
+        self.time = []
+        self.position = []
 
     def run(self, setpoint, measured_output):
         """!
@@ -39,4 +38,3 @@ class Control:
         """
         for i in range(len(self.times)):
             print("{}, {}".format(self.times[i],self.positions[i]))
-

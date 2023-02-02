@@ -16,7 +16,6 @@ def get_numeric_input(prompt):
         except EOFError:
             sys.exit(0)
 
-
 if __name__ == '__main__':
     # u2 = pyb.UART(1, baudrate=115200)
     # u2.read(1) # Wait for connection
