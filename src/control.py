@@ -2,7 +2,6 @@ import pyb
 
 class Control:
     """!
-
     """
 
     def __init__(self, Kp, setpoint, initial_output):
