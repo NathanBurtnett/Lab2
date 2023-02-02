@@ -14,7 +14,7 @@ if __name__ == '__main__':
     while True:
         Kp = input("Enter a value for Kp")
         con = Control(Kp, setpoint=0, initial_output=0)
-        setpoint = input("Enter setpoint for the motor")
+        setpoint = input("Enter setpoint")
         while: #ADD CONDITIONAL
             measured_output = enc.read
             motor_actuation = con.run(setpoint,measured_output)
