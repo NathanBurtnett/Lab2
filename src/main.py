@@ -12,10 +12,10 @@ if __name__ == '__main__':
         con = Control(Kp, setpoint=0, initial_output=0)
 
         while #ADD CONDITIONAL
-            measured_output = encoder_reader.read
+            measured_output = enc.read
+            motor_actuation = con.run(setpoint,measured_output)
 
-
-
+        con.print_time()
 
     level = 0
     while True:
