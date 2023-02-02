@@ -52,4 +52,4 @@ class EncoderReader:
         Resets the count from the passed encoder to zero.
         """
         self.count = 0
-        self.last_raw_cnt = 0
+

@@ -11,8 +11,8 @@ class Control:
         self.Kp = Kp
         self.setpoint = setpoint
         self.output = initial_output
-        self.time = []
-        self.position = []
+        self.times = []
+        self.positions = []
 
     def run(self, setpoint, measured_output):
         """!
