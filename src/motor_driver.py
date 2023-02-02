@@ -1,8 +1,5 @@
 import pyb
 
-from encoder_reader import EncoderReader
-
-
 class MotorDriver:
     """!
     This class implements a motor driver for an ME405 kit.

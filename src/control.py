@@ -1,6 +1,6 @@
 import pyb
 
-class control:
+class Control:
     """!
 
     """
