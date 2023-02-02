@@ -1,4 +1,4 @@
-import pyboard as pyb.utime
+import utime
 
 class Control:
     """!

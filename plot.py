@@ -11,4 +11,4 @@ def read_serial_data(s_port):
     while True:
         line = s_port.readline().strip().split(b',')
         if
->>>>>>> Stashed changes
+
