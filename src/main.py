@@ -15,14 +15,9 @@ if __name__ == '__main__':
         Kp = input("Enter a value for Kp")
         con = Control(Kp, setpoint=0, initial_output=0)
         setpoint = input("Enter setpoint")
+        utime.sleep_ms(10)
         while: #ADD CONDITIONAL
             measured_output = enc.read
             motor_actuation = con.run(setpoint,measured_output)
 
         con.print_time()
-
-    level = 0
-    while True:
-        print(enc.read())
-        pyb.delay(50)
-        m1.set_duty_cycle(level)
