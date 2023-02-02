@@ -5,7 +5,6 @@
       <root url="file://$APPLICATION_PLUGINS_DIR$/intellij-micropython/typehints/micropython" />
       <root url="file://$APPLICATION_PLUGINS_DIR$/intellij-micropython/typehints/pyboard" />
     </CLASSES>
-    <JAVADOC />
     <SOURCES />
   </library>
 </component>

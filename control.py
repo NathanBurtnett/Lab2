@@ -9,7 +9,8 @@ class control:
 
         set proportional gain
         set initial setpoint
-        ... other parameters
+        set other parameters
+
 
     def run(self):
         """!
@@ -20,10 +21,6 @@ class control:
         """
 
     def set_Kp(self):
-        """!
-        """
-
-    def store(self):
         """!
         """
 
