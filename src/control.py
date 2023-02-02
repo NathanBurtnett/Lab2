@@ -23,14 +23,18 @@ class control:
         self.positions.append(measured_output)
         return motor_actuation
 
-    def set_setpoint(self):
+    def set_setpoint(self, setpoint):
         """!
         """
+        self.setpoint = setpoint
 
-    def set_Kp(self):
+    def set_Kp(self, Kp):
         """!
         """
+        self.Kp = Kp
 
     def print_time(self):
         """!
         """
+        for i in range(len(self.times)):
+            print("{}, {}".format(self.times[i],self.positions[i]))
