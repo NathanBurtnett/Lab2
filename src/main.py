@@ -1,7 +1,9 @@
 from src.encoder_reader import EncoderReader
 from src.control import Control
 from src.motor_driver import MotorDriver
+import serial
 import pyb
+import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
     m1 = MotorDriver(pyb.Pin.board.PA10, pyb.Pin.board.PB4, pyb.Pin.board.PB5, 3)
