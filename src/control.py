@@ -13,7 +13,7 @@ class Control:
         self.times = []
         self.positions = []
 
-    def run(self, setpoint, measured_output, motor_actuation):
+    def run(self, setpoint, measured_output):
         """!
         """
         error = setpoint - measured_output
