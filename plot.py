@@ -6,7 +6,8 @@ with serial.Serial('COM3', baudrate=115200) as s:
     plot_data(time_list,position_list)
 
 def read_serial_data(s):
-    data =[]
+    time_list = []
+    position_list = []
     while True:
 
 
