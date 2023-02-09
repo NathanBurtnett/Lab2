@@ -1,3 +1,8 @@
+"""!
+@file plot.py
+Commands main.py on the nucleo to run multiple step responses
+and plots the results.
+"""
 import serial
 import matplotlib.pyplot as plt
 import time
