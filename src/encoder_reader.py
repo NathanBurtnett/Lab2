@@ -1,3 +1,8 @@
+"""!
+@file control.py
+Contains the EncoderReader class which is used to track the position of an
+encoder.
+"""
 import pyb
 
 ENC_MAX = 0xFFFF

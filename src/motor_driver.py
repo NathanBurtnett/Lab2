@@ -1,3 +1,8 @@
+"""!
+@file motor_driver.py
+This file contains the code used to drive the motor at a
+specified percent power in a specified direction.
+"""
 import pyb
 
 class MotorDriver:

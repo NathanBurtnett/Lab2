@@ -1,3 +1,8 @@
+"""!
+@file control.py
+This file contains the P controller used to drive the motor
+to a position
+"""
 import pyb
 import utime
 

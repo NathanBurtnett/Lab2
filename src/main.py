@@ -1,3 +1,8 @@
+"""!
+@file main.py
+This file contains the main script. It exposes an interface over serial to
+run a step command.
+"""
 from encoder_reader import EncoderReader
 from control import Control
 from motor_driver import MotorDriver
