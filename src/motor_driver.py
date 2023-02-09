@@ -5,6 +5,7 @@ specified percent power in a specified direction.
 """
 import pyb
 
+
 class MotorDriver:
     """!
     This class implements a motor driver for an ME405 kit.
@@ -54,5 +55,3 @@ class MotorDriver:
             self.ch_1.pulse_width_percent(0)
             self.ch_2.pulse_width_percent(0)
             self.ch_2.pulse_width_percent(0)
-
-
