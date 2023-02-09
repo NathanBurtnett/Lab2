@@ -17,5 +17,14 @@ var namespaces_dup =
       [ "setpoint", "namespacemain.html#abaace288e7aa75cceb6af1bc85cb85a3", null ],
       [ "ss", "namespacemain.html#ad3c325c8eff9c8cf113620130030be51", null ]
     ] ],
-    [ "motor_driver", "namespacemotor__driver.html", "namespacemotor__driver" ]
+    [ "motor_driver", "namespacemotor__driver.html", "namespacemotor__driver" ],
+    [ "plot", "namespaceplot.html", [
+      [ "init_board", "namespaceplot.html#ab3e87b47b939dd6b379a37bae4b0e939", null ],
+      [ "proc_lines", "namespaceplot.html#af25a0fc349e02c6a8697d649d17d0173", null ],
+      [ "run_step_response", "namespaceplot.html#a58762b3cd604a6dc0d348fe4c8bd9791", null ],
+      [ "wait_for_tok", "namespaceplot.html#aad2db57a301020dfb0e175690aff126d", null ],
+      [ "baudrate", "namespaceplot.html#ae114d2cdd552753a960b210883e982d2", null ],
+      [ "label", "namespaceplot.html#ab833ccc4e4fb7e634ddb35e4eb25c59d", null ],
+      [ "loc", "namespaceplot.html#ab498c44b7a7bd580f184bac89e46f3d9", null ]
+    ] ]
 ];
